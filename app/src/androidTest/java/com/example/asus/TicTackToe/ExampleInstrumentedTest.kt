@@ -1,4 +1,4 @@
-package com.example.asus.myapplication
+package com.example.asus.TicTackToe
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
