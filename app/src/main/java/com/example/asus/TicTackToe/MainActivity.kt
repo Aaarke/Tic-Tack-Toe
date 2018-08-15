@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private var playerList1 = ArrayList<Int>()
     private var playerList2 = ArrayList<Int>()
     private var Activeplayer = 1
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -42,10 +43,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         button8 = findViewById(R.id.btn8)
         button9 = findViewById(R.id.btn9)
     }
+
     /**
      * ============================================= The Function used to Set Listeners the view ====================================================================================
      */
-    private fun setListeners(){
+    private fun setListeners() {
         button1.setOnClickListener(this)
         button2.setOnClickListener(this)
         button3.setOnClickListener(this)
@@ -56,6 +58,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         button8.setOnClickListener(this)
         button9.setOnClickListener(this)
     }
+
     /**
      * ============================================= overriding onClick function to handle click   ====================================================================================
      */
@@ -84,24 +87,26 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         if (Activeplayer == 1) {
             buttonSelected.text = "X"
             buttonSelected.setTextColor(Color.WHITE)
-            buttonSelected.setBackgroundColor(Color.GREEN)
+            buttonSelected.textSize = 16.0F
+            buttonSelected.setBackgroundResource(R.color.blue_tick_tack)
             playerList1.add(cellID)
             Activeplayer = 2
         } else {
             buttonSelected.text = "O"
             buttonSelected.setTextColor(Color.WHITE)
-            buttonSelected.setBackgroundColor(Color.BLUE)
+            buttonSelected.setBackgroundResource(R.color.green_tick_tack_toe)
+            buttonSelected.textSize = 16.0F
             playerList2.add(cellID)
             Activeplayer = 1
         }
         buttonSelected.isEnabled = false
-        CheckWinner()
+        checkWinner()
     }
 
     /**
      * ============================================= The Function used to Check Winner====================================================================================
      */
-    private fun CheckWinner() {
+    private fun checkWinner() {
         var winner = -1
         /**
          * For row 1

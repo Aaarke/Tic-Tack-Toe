@@ -3,4 +3,125 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#0000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_15">#19000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_05">#0D000000</color>
+    <color name="black_04">#0C000000</color>
+    <color name="white_100">#FFF</color>
+    <color name="translucent_white">#8FFF</color>
+    <color name="white_20">#32FFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="status_bar_color">#4695F6</color>
+    <color name="transparent_white">#0FFF</color>
+    <color name="user_input_field_background_color">#1AFFFFFF</color>
+
+    <color name="app_button_normal_color">#4695F6</color>
+    <color name="app_button_pressed_color">#E64695F6</color>
+
+    <color name="accent">#4695F6</color>
+    <color name="accent_55">#664695F6</color>
+
+
+    <!--App Text Color flavours-->
+    <color name="app_text_color">#000000</color>
+    <color name="app_text_color_cc">#CC595959</color>
+    <color name="app_text_color_99">#99595959</color>
+    <color name="calendar_lines">#B2B2B2</color>
+
+    <color name="action_bar_color">#4695F6</color>
+    <color name="action_bar_dull_color">#4695F6</color>
+
+    <color name="list_background">#E2E4E6</color>
+
+    <!--Status Codes-->
+    <color name="status_declined">#999999</color>
+    <color name="status_assigned">#FC8344</color>
+    <color name="status_accepted">#BA68C8</color>
+    <color name="status_started">#2196F3</color>
+    <color name="status_arrived">#3F51BF</color>
+    <color name="status_successful">#2C9F2C</color>
+    <color name="status_failed">#E53935</color>
+    <color name="status_canceled">#E53935</color>
+
+    <!--Task Colors-->
+    <color name="task_pickup">#D9EDDA</color>
+    <color name="task_delivery">#CFE7FB</color>
+
+    <color name="separator">#CBCBCB</color>
+    <color name="setting_screen_separator">#DDDDDD</color>
+
+    <color name="caution_red">#E53935</color>
+    <color name="caution_red_translucent">#66E53935</color>
+    <color name="safe_green">#2C9F2C</color>
+    <color name="safe_green_translucent">#662C9F2C</color>
+
+    <!--On_Boarding backgrounds-->
+    <color name="launcher_screens_bg">#FFFFFF</color>
+    <color name="launcher_screens_button_normal">#4695F6</color>
+    <color name="launcher_screens_button_pressed">#E64695F6</color>
+    <color name="launcher_screens_button_text_color">#FFFFFF</color>
+
+
+    <color name="light_blue">#4695F6</color>
+
+    <color name="white_30">#4DFFFFFF</color>
+
+    <color name="edit_text_hint_color">#AAAAAA</color>
+    <color name="tab_layout_text_color">#909090</color>
+    <color name="table_reset_btn_color">#F0F0F0</color>
+    <color name="table_reset_btn_color_pressed">#DDDDDD</color>
+
+    <color name="table_completed_btn_color">#63AE0C</color>
+    <color name="table_cancelled_btn_color">#D64E47</color>
+    <color name="bar_top_value_color">#4a4a4a</color>
+
+    <color name="separator_color">#F7F7F7</color>
+    <color name="clear_button_pressed">#80F7F7F7</color>
+    <color name="busy_color">#d4628a</color>
+    <color name="available_color">#7cd163</color>
+    <color name="unavailable_color">#535353</color>
+    <color name="day_blocked_color">#d3d3d3</color>
+    <color name="reset_button_normal_color">#8d8d8d</color>
+    <color name="reset_button_pressed_color">#998d8d8d</color>
+    <color name="unavailable_selected_color">#638F31</color>
+    <color name="available_selected_color">#c5c5c5</color>
+    <color name="repeat_day_stroke_color">#B2B2B2</color>
+    <color name="widget_bg">#4695F6</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="green">#0fbd34</color>
+    <color name="black_02">#05000000</color>
+    <color name="color_red">#ff0000</color>
+    <color name="color_signature_bg">#232323</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="switch_color">#0aa909</color>
+    <color name="red_clear">#ec0303</color>
+    <color name="snackbar_bg_color_success">#e666d02a</color>
+    <color name="snackbar_bg_color_error">#e6e2574c</color>
+    <color name="app_button_text_color">#FFFFFF</color>
+    <color name="vehicle_background_color">#6cb955</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="camera_bg">#FAFAFA</color>
+    <color name="bar_graph_background_line">#f5f7f9</color>
+    <color name="bar_graph_unselected_color">#e1e1e1</color>
+    <color name="ratingbar_star_color">#f8e81c</color>
+    <color name="miles_cover_text_color">#0382c5</color>
+    <color name="hours_cover_text_color">#d94084</color>
+    <color name="task_completed_text_color">#41a446</color>
+    <color name="slide_color12">#4695F6</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="pink_accent">#FF4081</color>
+    <color name="blue_tick_tack">#FF33B5E5</color>
+    <color name="whitebackground">#d4d3d3</color>
+    <color name="green_tick_tack_toe">#ff616f</color>
+
 </resources>
